@@ -37,7 +37,32 @@ https://github.com/vsdip/vsd-riscv2
 ### Toolchain Verification
 The following commands were executed in the Codespace terminal:
 
-```bash
+`
 riscv64-unknown-elf-gcc --version
 spike --version
-iverilog -V
+iverilog -V `
+<img width="635" height="202" alt="image" src="https://github.com/user-attachments/assets/58b257bb-c40a-4ffa-bb7a-6cbb4fd4707f" />
+
+
+## Step-2: RISC-V Reference Program Execution
+### Actions Performed
+- Followed the README instructions in `vsd-riscv2`
+- Navigated to the sample RISC-V program directory
+- Compiled the program using the RISC-V GCC toolchain
+- Executed the program using the Spike simulator
+
+### Result
+- RISC-V program compiled successfully
+- Program executed without build or runtime errors
+- Console output confirmed correct execution
+
+
+
+---
+
+## Step-3: VSDFPGA Labs Execution
+
+### Repository Cloned
+```bash
+git clone https://github.com/vsdip/vsdfpga_labs.git
+cd vsdfpga_labs 
