@@ -1,0 +1,3 @@
+[submodule "Task_1/vsdfpga_labs"]
+	path = Task_1/vsdfpga_labs
+	url = https://github.com/vsdip/vsdfpga_labs.git
