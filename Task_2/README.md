@@ -120,7 +120,8 @@ in a waveform file for analysis.
   - `rdata = 0xDEADBEEF`
 - Waveform file: `gpio_sim.vcd`
 - GTKWave screenshot attached as proof of correct operation
-<img width="859" height="197" alt="image" src="https://github.com/user-attachments/assets/5386e02f-ef4f-4357-af41-8619090ebc27" />
+<img width="1093" height="477" alt="image" src="https://github.com/user-attachments/assets/46ccc207-8015-4d5c-bb77-b6cd1034d436" />
+
 
 ---
 
