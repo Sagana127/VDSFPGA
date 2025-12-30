@@ -1,0 +1,90 @@
+$date
+	Tue Dec 30 12:12:19 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module gpio_tb $end
+$var wire 32 ! rdata [31:0] $end
+$var wire 32 " gpio_out [31:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ read_en $end
+$var reg 1 % resetn $end
+$var reg 32 & wdata [31:0] $end
+$var reg 1 ' write_en $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ read_en $end
+$var wire 1 % resetn $end
+$var wire 32 ( wdata [31:0] $end
+$var wire 1 ' write_en $end
+$var reg 32 ) gpio_out [31:0] $end
+$var reg 32 * gpio_reg [31:0] $end
+$var reg 32 + rdata [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+bx *
+bx )
+b0 (
+0'
+b0 &
+0%
+0$
+0#
+bx "
+b0 !
+$end
+#5000
+b0 "
+b0 )
+b0 *
+1#
+#10000
+0#
+#15000
+1#
+1%
+#20000
+0#
+#25000
+b11011110101011011011111011101111 "
+b11011110101011011011111011101111 )
+b11011110101011011011111011101111 *
+1#
+1'
+b11011110101011011011111011101111 &
+b11011110101011011011111011101111 (
+#30000
+0#
+#35000
+1#
+0'
+#40000
+0#
+#45000
+b11011110101011011011111011101111 !
+b11011110101011011011111011101111 +
+1#
+1$
+#50000
+0#
+#55000
+1#
+#60000
+0#
+#65000
+1#
+#70000
+0#
+#75000
+1#
